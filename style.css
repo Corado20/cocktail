@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+  margin: 2rem auto;
+  min-height: 90vh;
+  width: 60%;
+  box-shadow: 0 0 10px black;
+}
+#header {
+  position: relative;
+}
+img {
+  position: relative;
+  border: none;
+  display: inline-block;
+  height: 20rem;
+}
+#denumire {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: rgb(222, 212, 241);
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.7rem 0;
+}
+#btn {
+  display: block;
+  bottom: 0;
+  margin: 0 25%;
+  width: 50%;
+  color: rgb(222, 212, 241);
+  background-color: rgb(62, 51, 218);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.7rem 0;
+}
+#ingrediente > span,
+#reteta > span {
+  display: block;
+  font-size: 1.5rem;
+  color: rgb(62, 51, 218);
+  padding: 0.5rem 1rem;
+  margin: 0;
+  border-bottom: 1px solid #ababab;
+}
+#ingrediente > ul {
+  list-style: none;
+  padding: 0 1rem;
+}
+#ingrediente > ul > li {
+  margin: 0.5rem 0;
+  padding: 0.2rem 0;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #efefef;
+}
+#reteta div {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  min-height: 150px;
+}
